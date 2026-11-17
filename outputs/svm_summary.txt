@@ -1,0 +1,18 @@
+SVM training summary
+====================
+Training rows: 840
+Test rows: 360
+Feature count: 396
+Positive class: no_helmet
+
+Linear SVM best parameters:
+  cost class.weights 1 0.01             1
+
+Linear SVM metrics:
+# A tibble: 1 × 10   model      accuracy precision_no_helmet recall_no_helmet f1_no_helmet specificity_helmet    tp    fp    fn    tn   <chr>         <dbl>               <dbl>            <dbl>        <dbl>              <dbl> <dbl> <dbl> <dbl> <dbl> 1 svm_linear    0.853               0.859            0.844        0.852              0.861   152    25    28   155
+
+RBF SVM best parameters:
+  gamma cost class.weights 9 0.001    5             1
+
+RBF SVM metrics:
+# A tibble: 1 × 10   model   accuracy precision_no_helmet recall_no_helmet f1_no_helmet specificity_helmet    tp    fp    fn    tn   <chr>      <dbl>               <dbl>            <dbl>        <dbl>              <dbl> <dbl> <dbl> <dbl> <dbl> 1 svm_rbf    0.856               0.872            0.833        0.852              0.878   150    22    30   158

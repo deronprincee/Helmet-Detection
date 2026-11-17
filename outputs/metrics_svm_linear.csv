@@ -1,0 +1,2 @@
+model,accuracy,precision_no_helmet,recall_no_helmet,f1_no_helmet,specificity_helmet,tp,fp,fn,tn
+svm_linear,0.8527777777777777,0.858757062142041,0.8444444444397531,0.8515406157417633,0.8611111111063272,152,25,28,155
